@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/backGround"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/splash_mark"
+        android:id="@+id/splash_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <ViewFlipper
+        android:id="@+id/splash_viewFlipper"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/splash_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/splash_login_area_layout"/>
+        <include
+            layout="@layout/splash_set_area_layout"/>
+    </ViewFlipper>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.txpark.com"
+        android:id="@+id/textView"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+
+</RelativeLayout>

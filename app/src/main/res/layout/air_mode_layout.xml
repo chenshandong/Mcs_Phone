@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_below="@+id/include2"
+    android:layout_centerHorizontal="true"
+    tools:showIn="@layout/fragment_air_condition">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cold"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_mode_cold_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="制冷"
+            android:id="@+id/textView30"
+            android:layout_below="@+id/btn_cold"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Cool"
+            android:id="@+id/textView31"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView30"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_hot"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_mode_hot_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="制热"
+            android:id="@+id/textView32"
+            android:layout_below="@+id/btn_hot"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Hot"
+            android:id="@+id/textView33"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView32"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_wind"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_mode_wind_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="送风"
+            android:id="@+id/textView34"
+            android:layout_below="@+id/btn_wind"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Wind"
+            android:id="@+id/textView35"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView34"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

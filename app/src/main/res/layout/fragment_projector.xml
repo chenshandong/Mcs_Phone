@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yzd.android.mcs_phone.ui.fragment.ProjectorFragment">
+
+    <include
+        layout="@layout/projector_head_layout"
+        >
+
+    </include>
+
+    <include
+        layout="@layout/projector_keyboard_layout">
+
+    </include>
+
+    <include
+        layout="@layout/projector_key_layout">
+
+    </include>
+
+
+</LinearLayout>

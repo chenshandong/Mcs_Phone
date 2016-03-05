@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backGround">#edf0f1</color>
+    <color name="buttonColor">#6c7e8c</color>
+    <color name="situation_bg">#f0f4f5</color>
+
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="save_color">#7ce045</color>
+    <color name="meet_color">#d77f28</color>
+    <color name="projector_color">#5db5ee</color>
+    <color name="gallery_color">#5d64ee</color>
+    <color name="power_color">#ef6588</color>
+
+    <color name="text_color">#686868</color>
+
+    <color name="situation_color">#1c7af6</color>
+    <color name="light_color">#1cae49</color>
+    <color name="curtain_color">#ff9b34</color>
+    <color name="air_color">#5cb5ed</color>
+    <color name="project_color">#f85340</color>
+    <color name="tv_color">#9a64d9</color>
+    <color name="music_color">#3730c7</color>
+    <color name="navigation_default_color">#5f5f5f</color>
+    <color name="music_list_selected_color">#5d9ef8</color>
+
+    <color name="music_name_color">#000000</color>
+</resources>

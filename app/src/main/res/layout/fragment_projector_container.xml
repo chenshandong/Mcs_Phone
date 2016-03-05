@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.obsessive.library.smartlayout.SmartTabLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_projector_tab_smart"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/sr_color_primary"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_indicatorColor="@color/gplus_color_4"
+        app:stl_indicatorThickness="3dp"
+        app:stl_indicatorCornerRadius="2dp"
+        app:stl_dividerColor="@android:color/transparent"
+        app:stl_dividerThickness="0dp"
+        app:stl_underlineColor="@android:color/transparent"
+        app:stl_defaultTabTextColor="@android:color/white"
+        app:stl_defaultTabTextSize="16sp"
+        app:stl_defaultTabTextHorizontalPadding="20dp"/>
+
+    <com.github.obsessive.library.widgets.XViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_projector_pager"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

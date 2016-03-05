@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/splash_image">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:background="@mipmap/splash_username"
+                />
+        </LinearLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view">
+
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="    用户名/User Name"
+                android:ems="10"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center"
+                android:background="@mipmap/splash_password"
+                />
+        </LinearLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view2">
+
+
+            <EditText
+                android:id="@+id/passWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="    密码/Password"
+                android:ems="10"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <com.yzd.android.mcs_phone.widgets.LoginCommentButton
+            android:id="@+id/btnLogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_send_comment"
+            android:elevation="4dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+        </com.yzd.android.mcs_phone.widgets.LoginCommentButton>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

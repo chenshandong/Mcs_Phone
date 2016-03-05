@@ -1,0 +1,20 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yzd.android.mcs_phone.ui.fragment.AirConditionFragment">
+
+    <include layout="@layout/air_head_layout"
+        android:id="@+id/include" />
+
+    <include layout="@layout/air_temp_layout"
+        android:id="@+id/include2" />
+
+    <include layout="@layout/air_mode_layout"
+        android:id="@+id/include3"/>
+
+    <include layout="@layout/air_speed_layout" />
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_project_ok"
+        android:background="@drawable/btn_projector_keyboard_enter_selector"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+     <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_project_up"
+        android:background="@drawable/btn_projector_keyboard_up_selector"
+         android:layout_above="@+id/btn_project_ok"
+         android:layout_alignLeft="@+id/btn_project_ok"
+         android:layout_alignStart="@+id/btn_project_ok" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_project_left"
+        android:background="@drawable/btn_projector_keyboard_left_selector"
+        android:layout_alignTop="@+id/btn_project_ok"
+        android:layout_toLeftOf="@+id/btn_project_ok"
+        android:layout_toStartOf="@+id/btn_project_ok" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_project_down"
+        android:background="@drawable/btn_projector_keyboard_down_selector"
+        android:layout_below="@+id/btn_project_ok"
+        android:layout_toRightOf="@+id/btn_project_left"
+        android:layout_toEndOf="@+id/btn_project_left" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_project_right"
+        android:background="@drawable/btn_projector_keyboard_right_selector"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn_project_ok"
+        android:layout_toEndOf="@+id/btn_project_ok" />
+</RelativeLayout>

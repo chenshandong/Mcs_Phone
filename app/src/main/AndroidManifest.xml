@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yzd.android.mcs_phone">
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".api.McsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/meet_control_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data android:value="56aae26ce0f55a85ca0022ed" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="${CHANNEL_VALUE}" android:name="UMENG_CHANNEL"/>
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="McsPhoneDataBase" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ui.activity.IndexActivity"
+            android:label="@string/title_activity_index"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoneTranslucent"></activity>
+
+        <service
+            android:name=".services.ReceiverService"
+            android:enabled="true"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".ui.activity.MusicPlayActivity"
+            android:label="@string/title_activity_music_play"
+            android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name=".services.MusicService"
+            android:enabled="true"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".ui.activity.MusicSearchActivity"
+            android:label="@string/title_activity_music_search"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.SetActivity"
+            android:label="@string/title_activity_set"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.TvModeContainerActivity"
+            android:label="@string/title_activity_tv_mode_container"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.NewFeatureActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

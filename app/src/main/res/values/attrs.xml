@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="navigation_list">
+        <item>情景控制</item>
+        <item>灯光控制</item>
+        <item>窗帘控制</item>
+        <item>空调控制</item>
+        <item>投影控制</item>
+        <item>电视控制</item>
+        <item>音乐控制</item>
+    </array>
+
+    <array name="air_list">
+        <item>空调1</item>
+        <item>空调2</item>
+        <item>空调3</item>
+        <item>空调4</item>
+    </array>
+
+    <array name="projector_list">
+        <item>投影1</item>
+        <item>投影2</item>
+        <item>投影3</item>
+        <item>投影4</item>
+        <item>投影5</item>
+        <item>投影6</item>
+        <item>投影7</item>
+    </array>
+
+    <array name="music_list">
+        <item>会前</item>
+        <item>会中</item>
+        <item>休闲</item>
+        <item>活动</item>
+        <item>颁奖</item>
+    </array>
+
+    <array name="navigation_subtitle_list">
+        <item>Scene</item>
+        <item>Lights</item>
+        <item>Curtain</item>
+        <item>Air Condition</item>
+        <item>Projection</item>
+        <item>Television</item>
+        <item>Music</item>
+    </array>
+
+    <integer-array name="navigation_head_default_list">
+        <item>@mipmap/navigation_situation_default</item>
+        <item>@mipmap/navigation_light_default</item>
+        <item>@mipmap/navigation_curtain_default</item>
+        <item>@mipmap/navigation_air_default</item>
+        <item>@mipmap/navigation_projector_default</item>
+        <item>@mipmap/navigation_tv_default</item>
+        <item>@mipmap/navigation_music_default</item>
+    </integer-array>
+
+    <integer-array name="navigation_head_highlight_list">
+        <item>@mipmap/navigation_situation_highlight</item>
+        <item>@mipmap/navigation_light_highlight</item>
+        <item>@mipmap/navigation_curtain_highlight</item>
+        <item>@mipmap/navigation_air_highlight</item>
+        <item>@mipmap/navigation_projector_highlight</item>
+        <item>@mipmap/navigation_tv_highlight</item>
+        <item>@mipmap/navigation_music_highlight</item>
+    </integer-array>
+
+    <array name="situation_title_list">
+        <item>节能模式</item>
+        <item>会议模式</item>
+        <item>投影模式</item>
+        <item>展示模式</item>
+        <item>总关模式</item>
+    </array>
+
+    <array name="situation_subtitle_list">
+        <item>Saving Mode</item>
+        <item>Meeting Mode</item>
+        <item>Projection Mode</item>
+        <item>Gallery Mode</item>
+        <item>Total Off</item>
+    </array>
+
+    <integer-array name="navigation_list_color">
+        <item>@color/situation_color</item>
+        <item>@color/light_color</item>
+        <item>@color/curtain_color</item>
+        <item>@color/air_color</item>
+        <item>@color/project_color</item>
+        <item>@color/tv_color</item>
+        <item>@color/music_color</item>
+    </integer-array>
+
+    <integer-array name="situation_list_color">
+        <item>@color/save_color</item>
+        <item>@color/meet_color</item>
+        <item>@color/projector_color</item>
+        <item>@color/gallery_color</item>
+        <item>@color/power_color</item>
+    </integer-array>
+
+    <array name="channel_list">
+        <item>全部频道</item>
+        <item>中央频道</item>
+        <item>体育频道</item>
+        <item>儿童频道</item>
+        <item>娱乐频道</item>
+        <item>新闻频道</item>
+    </array>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_animator_reverse" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+        <attr name="ci_drawable_unselected" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SendButton">
+        <attr name="sb_background" format="reference|color"/>
+        <attr name="sb_main_text" format="reference|string"/>
+        <attr name="sb_sub_text" format="reference|string"/>
+    </declare-styleable>
+
+
+</resources>

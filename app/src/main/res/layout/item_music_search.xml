@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:layout_width="6dp"
+                android:layout_height="40dp"
+                android:id="@+id/musicSelector"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="我相信"
+                android:singleLine="true"
+                android:id="@+id/musicName"
+                android:textSize="16sp"
+                android:textColor="@color/music_name_color"
+                android:layout_alignTop="@+id/musicSelector"
+                android:layout_alignLeft="@+id/singer"
+                android:layout_alignStart="@+id/singer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="杨培安"
+                android:singleLine="true"
+                android:id="@+id/singer"
+                android:layout_marginLeft="21dp"
+                android:layout_marginStart="21dp"
+                android:layout_alignBottom="@+id/musicSelector"
+                android:layout_toRightOf="@+id/musicSelector"
+                android:layout_toEndOf="@+id/musicSelector" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView22"
+                android:background="@color/alpha_05_black"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            >
+
+            <com.rey.material.widget.CheckBox
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/checkbox"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView25"
+                android:background="@color/alpha_05_black"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+</LinearLayout>

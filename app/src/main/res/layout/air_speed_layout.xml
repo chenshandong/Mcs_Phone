@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/include3"
+    tools:showIn="@layout/fragment_air_condition">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_small"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_speed_small_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="微风"
+            android:id="@+id/textView1"
+            android:layout_below="@+id/btn_small"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small"
+            android:id="@+id/textView2"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_mid"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_speed_mid_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="中风"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/btn_mid"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Middle"
+            android:id="@+id/textView4"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_large"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/air_speed_large_default"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="高风"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/btn_large"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="High"
+            android:id="@+id/textView6"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

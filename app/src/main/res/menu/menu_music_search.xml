@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/music_add_brfore"
+        android:title="会前"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/music_add_ing"
+        android:title="会中"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/music_add_relax"
+        android:title="休闲"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/music_add_active"
+        android:title="活动"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/music_add_pri"
+        android:title="颁奖"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+</menu>
